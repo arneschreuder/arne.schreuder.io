@@ -1,0 +1,40 @@
+@import 'variables.scss';
+
+.bg-personal-section {
+  background-color: #333333;
+}
+
+.profile-picture-container, .link-container {
+  width: $aside-width;
+}
+
+.link-icon {
+  font-size: 1.5rem;
+  color: $gray-500;
+
+  &:hover {
+    color: $brand-primary;
+    cursor: pointer, hand;
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: 1.5rem;
+}
+
+.profile-picture {
+  width: 10rem;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.clickable {
+  color: white;
+
+  &:hover {
+    color: $brand-primary;
+    cursor: pointer, hand;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,12 @@
+@import 'variables.scss';
+
+.entity {
+  width: $inner-aside-width-thin;
+}
+
+.project-logo {
+  width: 3rem;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid $gray-300;
+}
